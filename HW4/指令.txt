@@ -1,0 +1,4 @@
+python demos/random_action/random_action.py
+python demos/dqn/dqn.py
+python demos/hand_made_policy/hand_made_policyn.py
+python demos/q_table/q_table.py
