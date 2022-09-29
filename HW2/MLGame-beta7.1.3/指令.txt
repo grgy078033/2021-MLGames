@@ -1,0 +1,18 @@
+python MLGame.py -i ml_play_template.py pingpong HARD 10
+python MLGame.py -f60 -i ml_play_template.py pingpong HARD 10
+python MLGame.py -r -f60 -i ml_play_template.py pingpong HARD 10
+
+python MLGame.py -f60 -i ml_play.py pingpong HARD 10
+260 = scene_info["ball"][1] + frame_num_to_blocker * scene_info["ball_speed"][1]
+->
+(260 - scene_info["ball"][1]) / scene_info["ball_speed"][1] = frame_num_to_blocker
+
+NONE NONE = 0
+NONE LEFT = 1
+NONE RIGHT = 2
+LEFT NONE = 3
+LEFT LEFT = 4
+LEFT RIGHT = 5
+RIGHT NONE = 6
+RIGHT LEFT = 7
+RIGHT RIGHT = 8

@@ -1,0 +1,12 @@
+cd C:\Users\user\Desktop\ML\作業三\MLGame-beta7.1.3
+
+python MLGame.py -m snake
+python MLGame.py -i rule.py snake
+python MLGame.py -f60 -i rule.py snake
+python MLGame.py -r -f10000 -i ruleNew.py snake
+
+python MLGame.py -f60 -i ml_play.py snake
+python MLGame.py -f10000 -i ml_play.py snake
+
+M222982880
+中埔二街199號

@@ -1,0 +1,4 @@
+python MLGame.py -m -f 45 arkanoid EASY 3
+python MLGame.py -i ml_play_template.py arkanoid NORMAL 2
+python MLGame.py -f60 -i ml_play.py arkanoid NORMAL 2
+python MLGame.py -r -i rule.py -f500000 arkanoid NORMAL 3
